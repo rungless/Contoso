@@ -185,7 +185,7 @@
     </Compile>
     <Compile Include="Models\contosoContext.cs" />
     <Compile Include="Models\Course.cs" />
-    <Compile Include="Models\CoursesController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -202,7 +202,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
